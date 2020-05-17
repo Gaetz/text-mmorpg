@@ -4,7 +4,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/text-mmor
     useCreateIndex: true,
     useUnifiedTopology: true,
     useFindAndModify: false
-});
+})
 
 /* 1. Use model */ 
 
